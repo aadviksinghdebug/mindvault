@@ -286,7 +286,7 @@ Every push and pull request runs [gitleaks](https://github.com/gitleaks/gitleaks
 via GitHub Actions. The scanner looks for Stellar secret keys (`S...`), Supabase
 service keys, API keys, and other common secret patterns.
 
-**If CI fails on your PR:**
+**If CI fails on your PR:**   main
 
 1. **Do not merge** until the finding is resolved.
 2. Identify the leaked value in the gitleaks job log (file + line).
